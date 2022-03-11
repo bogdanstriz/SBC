@@ -107,7 +107,6 @@ const Topbar = ({
               variant="contained"
               color="primary"
               component="a"
-              target="blank"
               href="/page-about"
               size="large"
             >

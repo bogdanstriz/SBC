@@ -74,7 +74,6 @@ const SidebarNav = ({ pages, onClose }) => {
             color="primary"
             fullWidth
             component="a"
-            target="blank"
             href="/page-about"
           >
             Donate

@@ -15,6 +15,10 @@ export const pages = [
         title: 'FAQ',
         href: '/page-faq',
       },
+      {
+        title: '',
+        href: '/page-about',
+      },
     ],
   },
 ];

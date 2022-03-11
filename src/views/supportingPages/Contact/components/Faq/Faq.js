@@ -22,27 +22,27 @@ const Faq = () => {
       <Box>
         {[
           {
-            title: 'Can I purchase a gift certificate?',
+            title: 'Do I need to read the Bible?',
             subtitle:
               'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
           },
           {
-            title: 'What is your return policy?',
+            title: 'Should I pray?',
             subtitle:
               'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
           },
           {
-            title: 'Do you sell gift cards?',
+            title: 'How many times must I forgive a person?',
             subtitle:
               'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
           },
           {
-            title: 'Can I change plans later on?',
+            title: 'What if I don\'t want to?',
             subtitle:
               'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
           },
           {
-            title: 'Is this a subscription service?',
+            title: 'Does God see EVERYTHING?',
             subtitle:
               'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
           },

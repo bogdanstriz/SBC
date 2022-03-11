@@ -60,6 +60,7 @@ const Headline = () => {
         <Box display="flex" justifyContent={'center'}>
           <Box
             component={Button}
+            href='/page-contact'
             variant="contained"
             color="primary"
             size="large"

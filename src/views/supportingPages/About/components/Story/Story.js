@@ -47,6 +47,7 @@ const Story = () => {
         <Box marginTop={3} display={'flex'} justifyContent={'center'}>
           <Box
             component={Button}
+            href='/page-contact'
             variant="contained"
             color="primary"
             size="large"
