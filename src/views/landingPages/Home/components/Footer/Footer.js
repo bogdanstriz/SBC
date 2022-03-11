@@ -16,7 +16,7 @@ const Footer = () => {
         color={'textSecondary'}
         align={'center'}
       >
-        Get Started
+        Ukraine relief efforts
       </Typography>
       <Box
         component={Typography}
@@ -25,7 +25,7 @@ const Footer = () => {
         gutterBottom
         align={'center'}
       >
-        Get started with Webbee today
+        How you can help
       </Box>
       <Typography
         variant={'h6'}
@@ -33,8 +33,7 @@ const Footer = () => {
         color={'textSecondary'}
         align={'center'}
       >
-        Build a beautiful, modern website with flexible, fully customizable,
-        atomic Material-UI components.
+        You can do some stuff for Ukraine, yeah.
       </Typography>
       <Box marginTop={3} display={'flex'} justifyContent={'center'}>
         <Button
@@ -62,7 +61,7 @@ const Footer = () => {
             </svg>
           }
         >
-          Purchase now
+          Donate
         </Button>
       </Box>
     </Box>

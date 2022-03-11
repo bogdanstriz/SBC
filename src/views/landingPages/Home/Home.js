@@ -2,7 +2,7 @@ import React from 'react';
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Container from 'common/Container';
-import { DemoPages, Features, Footer, Hero, Highlights } from './components';
+import {Footer, Hero, Highlights } from './components';
 
 const Home = () => {
   const theme = useTheme();
@@ -16,14 +16,6 @@ const Home = () => {
       <Container>
         <Highlights />
       </Container>
-      <Container>
-        <Features />
-      </Container>
-      <Box bgcolor={theme.palette.alternate.main}>
-        <Container>
-          <DemoPages />
-        </Container>
-      </Box>
       <Container>
         <Footer />
       </Container>

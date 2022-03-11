@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f9f35186.chunk.css",
+    "main.js": "/static/js/main.e1f62b38.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.ed80dfdd.js",
+    "static/css/2.b56e9696.chunk.css": "/static/css/2.b56e9696.chunk.css",
+    "static/js/2.43b387ca.chunk.js": "/static/js/2.43b387ca.chunk.js",
+    "static/js/3.1c5b238b.chunk.js": "/static/js/3.1c5b238b.chunk.js",
+    "index.html": "/index.html",
+    "static/js/2.43b387ca.chunk.js.LICENSE.txt": "/static/js/2.43b387ca.chunk.js.LICENSE.txt",
+    "static/media/church_image.c1af3da4.png": "/static/media/church_image.c1af3da4.png",
+    "static/media/logo_dark_lp.38fc8962.png": "/static/media/logo_dark_lp.38fc8962.png",
+    "static/media/logo_light_lp.55c0d3be.png": "/static/media/logo_light_lp.55c0d3be.png",
+    "static/media/proclaim.e993db0c.png": "/static/media/proclaim.e993db0c.png",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/worship.49fc5329.png": "/static/media/worship.49fc5329.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed80dfdd.js",
+    "static/css/2.b56e9696.chunk.css",
+    "static/js/2.43b387ca.chunk.js",
+    "static/css/main.f9f35186.chunk.css",
+    "static/js/main.e1f62b38.chunk.js"
+  ]
+}

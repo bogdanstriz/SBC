@@ -68,16 +68,6 @@ const SidebarNav = ({ pages, onClose }) => {
             </Box>
           ))}
         </Box>
-        <Box>
-          <Button
-            variant="outlined"
-            fullWidth
-            component="a"
-            href="/docs-introduction"
-          >
-            Documentation
-          </Button>
-        </Box>
         <Box marginTop={1}>
           <Button
             variant="contained"
@@ -85,9 +75,9 @@ const SidebarNav = ({ pages, onClose }) => {
             fullWidth
             component="a"
             target="blank"
-            href="https://material-ui.com/store/items/webbee-landing-page/"
+            href="/page-about"
           >
-            Purchase now
+            Donate
           </Button>
         </Box>
       </Box>

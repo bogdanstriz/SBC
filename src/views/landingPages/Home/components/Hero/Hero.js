@@ -21,22 +21,24 @@ const Hero = () => {
         <Box data-aos={isMd ? 'fade-right' : 'fade-up'}>
           <Box marginBottom={2}>
             <Typography
-              variant="h2"
+              variant="h3"
               color="textPrimary"
               sx={{
                 fontWeight: 700,
               }}
             >
-              Turn your ideas
+              For everything 
               <br />
-              into a{' '}
+              was created
+              <br />
+              by Him,{' '}
               <Typography
                 color={'primary'}
                 component={'span'}
                 variant={'inherit'}
               >
                 <Typed
-                  strings={['startup.', 'future.', 'success.']}
+                  strings={['in heaven', 'on earth', 'the visible', 'the invisible']}
                   typeSpeed={80}
                   loop={true}
                 />
@@ -45,13 +47,21 @@ const Hero = () => {
           </Box>
           <Box marginBottom={3}>
             <Typography
-              variant="h6"
+              variant="h5"
               component="p"
               color="textSecondary"
               sx={{ fontWeight: 400 }}
             >
-              Webbee will make your product look modern and professional while
-              saving you precious time.
+              Whether thrones or dominions or rulers or authorities-- all things have been created through Him and for Him.
+                <Typography
+                variant="h6"
+                component="p"
+                color="textSecondary"
+                textAlign="right"
+                sx={{ fontWeight: 200 }}
+              >
+                -Colossians 1:16
+              </Typography>
             </Typography>
           </Box>
           <Box
@@ -59,34 +69,11 @@ const Hero = () => {
             flexDirection={{ xs: 'column', sm: 'row' }}
             alignItems={{ xs: 'stretched', sm: 'flex-start' }}
           >
-            <Button
-              component={'a'}
-              variant="contained"
-              color="primary"
-              size="large"
-              fullWidth={isMd ? false : true}
-              href={
-                'https://material-ui.com/store/items/webbee-landing-page/'
-              }
-              target={'_blank'}
-            >
-              Purchase now
-            </Button>
             <Box
               marginTop={{ xs: 2, sm: 0 }}
               marginLeft={{ sm: 2 }}
               width={{ xs: '100%', md: 'auto' }}
             >
-              <Button
-                component={'a'}
-                href={'/docs-introduction'}
-                variant="outlined"
-                color="primary"
-                size="large"
-                fullWidth={isMd ? false : true}
-              >
-                View documentation
-              </Button>
             </Box>
           </Box>
         </Box>

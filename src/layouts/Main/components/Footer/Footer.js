@@ -43,24 +43,12 @@ const Footer = () => (
             <Link
               underline="none"
               component="a"
-              href="/docs-introduction"
-              color="textPrimary"
+              //href="/docs-introduction"
+              color="textSecondary"
               variant={'subtitle2'}
             >
-              Documentation
+              Schedule
             </Link>
-          </Box>
-          <Box marginTop={1}>
-            <Button
-              variant="outlined"
-              color="primary"
-              component="a"
-              target="blank"
-              href="https://material-ui.com/store/items/webbee-landing-page/"
-              size="small"
-            >
-              Purchase now
-            </Button>
           </Box>
         </Box>
       </Box>
@@ -72,7 +60,7 @@ const Footer = () => (
         color="textSecondary"
         gutterBottom
       >
-        &copy; Webbee. 2021, Maccarian. All rights reserved
+        Developed by Bogdan Strizheus and William Denega
       </Typography>
       <Typography
         align={'center'}
@@ -80,10 +68,7 @@ const Footer = () => (
         color="textSecondary"
         component={'p'}
       >
-        When you visit or interact with our sites, services or tools, we or our
-        authorised service providers may use cookies for storing information to
-        help provide you with a better, faster and safer experience and for
-        marketing purposes.
+        We can make one for you if you want.
       </Typography>
     </Grid>
   </Grid>
