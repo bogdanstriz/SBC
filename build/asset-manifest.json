@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.f9f35186.chunk.css",
-    "main.js": "/static/js/main.e1f62b38.chunk.js",
-    "runtime-main.js": "/static/js/runtime-main.ed80dfdd.js",
+    "main.js": "/static/js/main.b286efee.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.e7d941ca.js",
     "static/css/2.b56e9696.chunk.css": "/static/css/2.b56e9696.chunk.css",
-    "static/js/2.43b387ca.chunk.js": "/static/js/2.43b387ca.chunk.js",
-    "static/js/3.1c5b238b.chunk.js": "/static/js/3.1c5b238b.chunk.js",
+    "static/js/2.fcd6d887.chunk.js": "/static/js/2.fcd6d887.chunk.js",
+    "static/js/3.a824d3fa.chunk.js": "/static/js/3.a824d3fa.chunk.js",
     "index.html": "/index.html",
-    "static/js/2.43b387ca.chunk.js.LICENSE.txt": "/static/js/2.43b387ca.chunk.js.LICENSE.txt",
+    "static/js/2.fcd6d887.chunk.js.LICENSE.txt": "/static/js/2.fcd6d887.chunk.js.LICENSE.txt",
     "static/media/church_image.c1af3da4.png": "/static/media/church_image.c1af3da4.png",
     "static/media/logo_dark_lp.38fc8962.png": "/static/media/logo_dark_lp.38fc8962.png",
     "static/media/logo_light_lp.55c0d3be.png": "/static/media/logo_light_lp.55c0d3be.png",
@@ -16,10 +16,10 @@
     "static/media/worship.49fc5329.png": "/static/media/worship.49fc5329.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed80dfdd.js",
+    "static/js/runtime-main.e7d941ca.js",
     "static/css/2.b56e9696.chunk.css",
-    "static/js/2.43b387ca.chunk.js",
+    "static/js/2.fcd6d887.chunk.js",
     "static/css/main.f9f35186.chunk.css",
-    "static/js/main.e1f62b38.chunk.js"
+    "static/js/main.b286efee.chunk.js"
   ]
 }
