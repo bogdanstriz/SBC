@@ -74,9 +74,10 @@ const SidebarNav = ({ pages, onClose }) => {
             color="primary"
             fullWidth
             component="a"
-            href="/page-about"
+            href="https://www.altruisminternational.com/"
+            target='_blank'
           >
-            Donate
+            Ukraine
           </Button>
         </Box>
       </Box>

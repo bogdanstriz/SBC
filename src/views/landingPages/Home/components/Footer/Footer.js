@@ -33,12 +33,13 @@ const Footer = () => {
         color={'textSecondary'}
         align={'center'}
       >
-        You can do some stuff for Ukraine, yeah.
+        Learn how you can contribute to relief efforts in Ukraine.
       </Typography>
       <Box marginTop={3} display={'flex'} justifyContent={'center'}>
         <Button
           component={'a'}
-          href={'/page-about'}
+          href={'https://www.altruisminternational.com/'}
+          target='_blank'
           variant="contained"
           color="primary"
           size="large"
@@ -60,7 +61,7 @@ const Footer = () => {
             </svg>
           }
         >
-          Donate
+          Learn More
         </Button>
       </Box>
     </Box>

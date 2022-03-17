@@ -15,7 +15,7 @@ const Highlights = () => {
       <Grid container spacing={2}>
         {[
           {
-            title: 'Serve/Donate',
+            title: 'Serve',
             subtitle:
               'To be ready to serve we must be trained and equipped.  This is why bible study, prayer and meeting with other believers for support, encouragement and teaching is vital.',
             icon: (
@@ -23,7 +23,7 @@ const Highlights = () => {
             ),
           },
           {
-            title: 'Worship/Donate',
+            title: 'Worship',
             subtitle:
               'Getting to know God personally through prayer and bible study helps us to see God more clearly and therefore encourages our worship.',
             icon: (
@@ -31,9 +31,10 @@ const Highlights = () => {
             ),
           },
           {
-            title: 'Proclaim/Donate',
-            subtitle:
-              '--\'We proclaim Him, admonishing every man and teaching every man with all wisdom.\' ----Colossians 1:28',
+            title: 'Proclaim',
+            subtitle:<Typography>
+              We proclaim Him, admonishing every man and teaching every man with all wisdom.<Typography align='right'>-Colossians 1:28</Typography>
+              </Typography>,
             icon: (
               <img src={Proclaim} height={45} width={45}/>
             ),

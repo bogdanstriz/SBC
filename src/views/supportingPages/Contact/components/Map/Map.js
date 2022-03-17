@@ -31,7 +31,7 @@ const Map = ({ themeMode = 'light' }) => {
         </Box>
         <Box>
           <Typography variant="h6" color={'textSecondary'}>
-            We'd love to talk to (accept donations) from you.
+            We'd love to talk to hear from you.
           </Typography>
         </Box>
       </Box>

@@ -107,10 +107,11 @@ const Topbar = ({
               variant="contained"
               color="primary"
               component="a"
-              href="/page-about"
+              target='_blank'
+              href="https://www.altruisminternational.com/"
               size="large"
             >
-              Donate
+              Ukraine
             </Button>
           </Box>
         </Box>

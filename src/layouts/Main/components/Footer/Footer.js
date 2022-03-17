@@ -68,7 +68,7 @@ const Footer = () => (
         color="textSecondary"
         component={'p'}
       >
-        We can make one for you if you want.
+        --
       </Typography>
     </Grid>
   </Grid>

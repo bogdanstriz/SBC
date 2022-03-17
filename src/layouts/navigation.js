@@ -12,7 +12,7 @@ export const pages = [
         href: '/page-contact',
       },
       {
-        title: 'FAQ',
+        title: '',
         href: '/page-faq',
       },
       {
