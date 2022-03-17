@@ -38,7 +38,7 @@ const Footer = () => {
       <Box marginTop={3} display={'flex'} justifyContent={'center'}>
         <Button
           component={'a'}
-          href={'https://www.altruisminternational.com/'}
+          href={'https://www.altruisminternational.com/page-ukraine'}
           target='_blank'
           variant="contained"
           color="primary"

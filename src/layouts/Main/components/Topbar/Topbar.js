@@ -108,7 +108,7 @@ const Topbar = ({
               color="primary"
               component="a"
               target='_blank'
-              href="https://www.altruisminternational.com/"
+              href="https://www.altruisminternational.com/page-ukraine"
               size="large"
             >
               Ukraine

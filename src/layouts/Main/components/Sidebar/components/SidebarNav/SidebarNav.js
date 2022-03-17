@@ -74,7 +74,7 @@ const SidebarNav = ({ pages, onClose }) => {
             color="primary"
             fullWidth
             component="a"
-            href="https://www.altruisminternational.com/"
+            href="https://www.altruisminternational.com/page-ukraine"
             target='_blank'
           >
             Ukraine
