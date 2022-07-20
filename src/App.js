@@ -1,15 +1,15 @@
-import React from 'react';
-import { Router } from 'react-router-dom';
-import { createBrowserHistory } from 'history';
-import Routes from './Routes';
+import React from "react";
+import { Router } from "react-router-dom";
+import { createBrowserHistory } from "history";
+import Routes from "./Routes";
 
-import 'react-lazy-load-image-component/src/effects/blur.css';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import 'aos/dist/aos.css';
+import "react-lazy-load-image-component/src/effects/blur.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "aos/dist/aos.css";
 
-import 'scss/react-images.scss';
-import 'scss/slick-slider.scss';
+import "scss/react-images.scss";
+import "scss/slick-slider.scss";
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -25,7 +25,7 @@ const firebaseConfig = {
   storageBucket: "slavicbethelchurch-81e42.appspot.com",
   messagingSenderId: "494972932316",
   appId: "1:494972932316:web:0f0ca6d96a00ee35372419",
-  measurementId: "G-SCQZ0TYTDN"
+  measurementId: "G-SCQZ0TYTDN",
 };
 
 // Initialize Firebase
@@ -35,6 +35,14 @@ const analytics = getAnalytics(app);
 const browserHistory = createBrowserHistory();
 
 const App = () => {
+  (function() {
+    window.onpageshow = function(event) {
+      if (event.persisted) {
+        window.location.reload();
+      }
+    };
+  })();
+
   return (
     <Router history={browserHistory}>
       <Routes />
